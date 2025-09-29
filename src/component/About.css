@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.about-page{
+    display: flex;
+    justify-content:center;
+    padding:1.5rem;
+   
+  
+}
+.photo{
+    padding:2rem;
+    margin-top: 1.5rem;
+   
+}
+ .profile{
+    height:45vh;
+    width:20vw;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    background-color:rgb(238, 234, 234);
+   
+}
+.bio{
+
+padding:2rem;
+flex-wrap: wrap;
+}
+.bio p{
+    font-size:1.2rem;
+}
+.education{
+    border-bottom: 2px solid black;
+    width: 6.5rem;
+}
+.bio span{
+    color: white;
+}
+.edubox p{
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 1rem;
+    padding: 0.4rem;
+}
+@media (max-width:760px) {
+    .about-page{
+        flex-direction: column;
+       
+    }
+    .photo{
+       display: flex;
+       justify-content: center;
+       padding: 1.5rem;
+     
+    }
+    .profile{
+        width: 60vw;
+        height:30vh;
+        padding: 0.8rem;
+    }
+    .bio{
+        padding:0.5rem;
+    }
+
+}
+@media (min-width:760px) and (max-width:1080px) {
+    .profile{
+        height:25vh;
+        width:30vw;
+    }
+    .about-page{
+         padding: 0.7rem;
+    }
+     .photo{
+       padding: 1.5rem;
+     
+    }
+    .bio{
+        padding:1.5rem;
+    }
+    
+}

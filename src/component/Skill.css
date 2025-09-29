@@ -1,0 +1,31 @@
+.shead{
+  text-align: center;
+}
+.skill-page{
+    margin-top:4rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:4rem;
+}
+img{
+  height: 120px;
+  width: 120px;
+}
+.sbox{
+  text-align: center;
+ 
+  
+}
+.sbox img{
+  mix-blend-mode: color-burn;
+
+}
+.sbox h2{
+  color: white;
+  cursor: pointer;
+}
+.sbox:hover h2{
+  color: black;
+}
