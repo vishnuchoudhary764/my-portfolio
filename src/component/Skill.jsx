@@ -5,6 +5,11 @@ import html from "../assets/html.png"
 import js from "../assets/js.png"
 import css from "../assets/css.png"
 import github from "../assets/github.png"
+import nextjs from "../assets/nextjs.png"
+import tailwind from "../assets/tailwind.jpeg"
+
+
+
 
 
 const Skill = () => {
@@ -32,7 +37,14 @@ const Skill = () => {
         <img data-aos="fade-left" src={github} alt="" />
         <h2>GitHub</h2>
       </div>
-      
+      <div className="sbox">
+        <img data-aos="zoom-out" src={nextjs} alt="" />
+        <h2>NextJs</h2>
+      </div>
+       <div className="sbox">
+        <img data-aos="fade-right" src={tailwind} alt="" />
+        <h2>Tailwind</h2>
+      </div>
 
     </div>
 </div>
