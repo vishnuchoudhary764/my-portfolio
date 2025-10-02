@@ -41,7 +41,7 @@
  @media (max-width:800px) {
    ul{
       width:100vw;
-      font-size:0.8rem;
+      font-size:0.7rem;
       justify-content: center;
    }
    .active-link{
