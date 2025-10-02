@@ -82,7 +82,7 @@ button{
 @media (max-width:800px) {
   
  .home-page .typewritter{
-    /* font-size:1.8rem; */
+    font-size:1.4rem;
   }
   .home-page h1{
     font-size: 1.65rem;
