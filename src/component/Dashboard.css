@@ -41,12 +41,13 @@
  @media (max-width:800px) {
    ul{
       width:100vw;
-      font-size:0.7rem;
+      font-size:1.2rem;
       justify-content: center;
+     padding: 1rem;
+     
+   
    }
-   .active-link{
-      font-size: 1.2rem;
-   }
+  
    
  }
  
