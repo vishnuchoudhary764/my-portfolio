@@ -18,32 +18,52 @@ const Skill = () => {
       <h1 className='shead'>Skills</h1>
     <div className='skill-page'>
       <div className="sbox">
-        <img data-aos="fade-right" src={react} alt="" />
+        {/* <img data-aos="fade-right" src={react} alt="" /> */}
         <h2>REACT</h2>
       </div>
       <div className="sbox">
-        <img data-aos="fade-up-right" src={js} alt="" />
+        {/* <img data-aos="fade-up-right" src={js} alt="" /> */}
         <h2>JavaScript</h2>
       </div>
       <div className="sbox">
-        <img data-aos="zoom-in" src={css} alt="" />
+        {/* <img data-aos="zoom-in" src={css} alt="" /> */}
         <h2>CSS</h2>
       </div>
       <div className="sbox">
-        <img data-aos="fade-down-left" src={html} alt="" />
+        {/* <img data-aos="fade-down-left" src={html} alt="" /> */}
         <h2>HTML</h2>
       </div>
       <div className="sbox">
-        <img data-aos="fade-left" src={github} alt="" />
+        {/* <img data-aos="fade-left" src={github} alt="" /> */}
         <h2>GitHub</h2>
       </div>
       <div className="sbox">
-        <img data-aos="zoom-out" src={nextjs} alt="" />
+        {/* <img data-aos="zoom-out" src={nextjs} alt="" /> */}
         <h2>NextJs</h2>
       </div>
        <div className="sbox">
-        <img data-aos="fade-right" src={tailwind} alt="" />
+        {/* <img data-aos="fade-right" src={tailwind} alt="" /> */}
         <h2>Tailwind</h2>
+      </div>
+       <div className="sbox">
+        {/* <img data-aos="fade-right" src={tailwind} alt="" /> */}
+        <h2>EXPRESS</h2>
+      </div>
+       <div className="sbox">
+        {/* <img data-aos="fade-right" src={tailwind} alt="" /> */}
+        <h2>NodeJS</h2>
+      </div>
+       <div className="sbox">
+        {/* <img data-aos="fade-right" src={tailwind} alt="" /> */}
+        <h2>MongoDb</h2>
+      </div>
+       <div className="sbox">
+        {/* <img data-aos="fade-right" src={tailwind} alt="" /> */}
+        <h2>Postman</h2>
+      </div>
+        <div className="sbox">
+        {/* <img data-aos="fade-right" src={tailwind} alt="" /> */}
+        <h2>JAVA</h2>
       </div>
 
     </div>

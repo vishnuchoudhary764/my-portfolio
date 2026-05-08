@@ -49,7 +49,7 @@ const Contact = () => {
       </div>
       <div class="madeby">
         <div>
-          <p>Made by vishnu with ❤️ Love All rights reserved by crazyXdeveloper</p>
+          <p>Made by vishnu with ❤️ Love </p>
         </div>
       </div>
 

@@ -11,8 +11,8 @@ const About = () => {
       </section>
       <section className='bio'>
      {/* <h1>About Me</h1> */}
-     <h2>Creating responsive UI/UX for better web experience</h2>
-     <p>I am a dedicated and creative Frontend Developer currently pursuing a Bachelor of Technology in Computer Science from Rajasthan Technical University, Kota. With a strong grasp of HTML, CSS, JavaScript, and React.js. I’m also expanding my skills into backend technologies like Node.js and Java to grow into a full-stack developer. I value continuous learning, teamwork, and solving real-world problems through intuitive UI experiences.</p>
+     <h2>Building Modern & Responsive Web Experiences</h2>
+     <p>Dedicated Computer Science student and Full Stack (MERN + Next.js) Developer at Rajasthan Technical University, Kota, with hands-on experience in building responsive and scalable web applications. Skilled in HTML, CSS, JavaScript, React.js, Next.js, Node.js, Express.js, MongoDB, and Tailwind CSS. Focused on creating clean UI/UX designs and solving real-world problems through efficient web solutions.</p>
        <div className='edubox'>
          <h2 className='education'>Education </h2>
         <p data-aos="fade-up-left">B.Tech from Rajasthan Technical University, Kota <span>-----------</span><b>2023-2027</b></p>

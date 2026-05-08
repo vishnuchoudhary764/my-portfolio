@@ -6,17 +6,19 @@ const Home = () => {
             <div className='home-page'>
                 <h1>Vishnu Choudhary  </h1>
                 <h2 className='typewritter'>Frontend Developer</h2>
-                <p className='passion'>I'm a frontend developer with strong foundation in HTML, CSS, JavaScript, and modern frameworks like React.js. Skilled in building responsive, user-friendly web interfaces with a focus on performance and accessibility.Eager to contribute to dynamic teams, continuously learn new technologies.Let's start scrolling and learn more about me.</p>
+                <p className='passion'>I'm a Passionate Computer Science student and Full Stack (MERN + Next.js) Developer with practical
+                    experience in building and deploying modern web applications. Proficient in creating scalable
+                    backend systems, REST APIs, and responsive frontends.</p>
                 <div className="btns">
 
-                      <button
+                    <button
                         onClick={() =>
                             window.open(
-                               "/VISHNU_CHOUDHARY_RESUME.pdf"
+                                "/VISHNU_CHOUDHARY_RESUME.pdf"
                             )
                         }
                         className="rbtn"
-                       
+
                     >
                         Resume
                     </button>
