@@ -1,7 +1,7 @@
 import React , { useRef } from "react";
 import { ArrowUpRight } from "lucide-react";
 import { PROFILE } from "../utils/data";
-import { Reveal, Eyebrow } from "./UI";
+import { Reveal, Eyebrow } from "./Ui";
 
 export function Hero({ onNavigate }) {
   const videoRef = useRef(null);
