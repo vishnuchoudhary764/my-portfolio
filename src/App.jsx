@@ -1,78 +1,48 @@
-import './App.css'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Dashboard from './component/Dashboard'
-import Home from './component/Home';
-import About from './component/About'
-import Project from './component/Project'
-import Skill from './component/Skill'
-import Contact from './component/Contact'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { useEffect } from 'react';
+import React, { useCallback } from "react";
+import { NAV_ITEMS } from "./utils/data";
+import { useRef, useEffect } from "react";
+import { useActiveSection } from "./utils/hooks";
+import { Navbar, SideRuler } from "./components/Navbar";
+import { Hero } from "./components/Hero";
+import { About } from "./components/About";
+import { Skills } from "./components/Skills";
+import { Projects } from "./components/Project";
+import { Experience } from "./components/Experience";
+import { Education } from "./components/Education";
+import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
 
-const router = createBrowserRouter(
-  [
-    {
-      path: "/",
-      element:
-        <div>
-          <Dashboard/>
-          <Home/>
-          <About />
-          <Project />
-          <Skill />
-          <Contact />
-        </div>
-    },
-    {
-      path: "/about",
-      element:
-        <div>
-          <Dashboard />
-          <About />
-        </div>
-    },
-    {
-      path: "/Project",
-      element:
-        <div>
-          <Dashboard />
-          <Project />
-        </div>
-    },
-    {
-      path: "/Skills",
-      element:
-        <div>
-          <Dashboard />
-          <Skill />
-        </div>
-    },
-    {
-      path: "/Contact",
-      element:
-        <div>
-          <Dashboard />
-          <Contact />
-        </div>
-    },
-  ]
-)
+import "./index.css";
 
+export default function App() {
+  const active = useActiveSection(NAV_ITEMS.map((n) => n.id));
 
-function App() {
-  useEffect(() => {
-    AOS.init({
-      duration: 500,
-
-    });
+  const handleNavigate = useCallback((id) => {
+    if (id === "top") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      return;
+    }
+    const el = document.getElementById(id);
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
   }, []);
 
   return (
-    <div className='router'>
-        <RouterProvider router={router} />
-    </div>
-  )
-}
+    <div className="portfolio-root min-h-screen ink-text">
+      
+      <Navbar active={active} onNavigate={handleNavigate} />
+      {/* <SideRuler active={active} onNavigate={handleNavigate} /> */}
 
-export default App
+      <main>
+        <Hero onNavigate={handleNavigate} />
+        <About />
+        <Skills />
+        <Projects />
+        <Experience />
+        <Education />
+        <Contact />
+      </main>
+
+      <Footer />
+    </div>
+  );
+}
