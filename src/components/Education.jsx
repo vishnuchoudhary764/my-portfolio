@@ -1,7 +1,7 @@
 import React from "react";
 import { GraduationCap, Award } from "lucide-react";
 import { EDUCATION, CERTIFICATIONS } from "../utils/data";
-import { Reveal, Eyebrow, FigureLabel } from "./UI";
+import { Reveal, Eyebrow, FigureLabel } from "./Ui";
 
 export function Education() {
   return (

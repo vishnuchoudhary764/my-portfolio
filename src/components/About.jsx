@@ -1,6 +1,6 @@
 import React from "react";
 // import { ABOUT_FACTS } from "../utils/data";
-import { Reveal, FigureLabel, CornerFrame, SocialButtons ,Stat } from "./UI";
+import { Reveal, FigureLabel, CornerFrame, SocialButtons ,Stat } from "./Ui";
 
 export function About() {
   return (

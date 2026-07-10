@@ -1,7 +1,7 @@
 import React from "react";
 import { ExternalLink, Github } from "lucide-react";
 import { PROJECTS } from "../utils/data";
-import { Reveal, FigureLabel } from "./UI";
+import { Reveal, FigureLabel } from "./Ui";
 
 function ProjectThumb({ img, github, demo }) {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import { Briefcase, ChevronRight } from "lucide-react";
 import { EXPERIENCE } from "../utils/data";
-import { Reveal, FigureLabel } from "./UI";
+import { Reveal, FigureLabel } from "./Ui";
 
 export function Experience() {
   return (

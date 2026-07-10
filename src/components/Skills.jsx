@@ -1,7 +1,7 @@
 import React from "react";
 import { SKILLS } from "../utils/data";
 import { useReveal } from "../utils/hooks";
-import { Reveal, Eyebrow, FigureLabel, Stat } from "./UI";
+import { Reveal, Eyebrow, FigureLabel, Stat } from "./Ui";
 
 function SkillBar({ name, level, delay }) {
   const [ref, visible] = useReveal(0.4);

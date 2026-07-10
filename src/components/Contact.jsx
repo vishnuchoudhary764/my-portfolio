@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Mail, MapPin, Send, Check, Linkedin } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import { PROFILE } from "../utils/data";
-import { Reveal, Eyebrow, FigureLabel } from "./UI";
+import { Reveal, Eyebrow, FigureLabel } from "./Ui";
 
 const initialForm = { name: "", email: "", message: "" };
 
