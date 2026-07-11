@@ -18,8 +18,9 @@ export function Experience() {
                 <h3 className="font-display text-md ink-text">{e.role}</h3>
                 
                 <span className="mono text-xs accent-text ml-auto">{e.period}</span>
-                <p className="mono text-xs ink-soft">— {e.company}</p>
+                
               </div>
+              <p className="mono text-xs ink-soft">— {e.company}</p>
               {/* <ul className="space-y-1.5 mt-3">
                 {e.points.map((pt) => (
                   <li key={pt} className="text-sm ink-soft leading-relaxed flex gap-2">
