@@ -16,9 +16,11 @@ export function Experience() {
               <span className="absolute -left-8 sm:-left-10 top-1.5 w-2.5 h-2.5 rounded-full accent-bg ring-4 ring-[#E4E7EE]" />
               <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-2">
                 <h3 className="font-display text-md ink-text">{e.role}</h3>
-                <span className="mono text-xs ink-soft">— {e.company}</span>
+                
                 <span className="mono text-xs accent-text ml-auto">{e.period}</span>
+                
               </div>
+              <p className="mono text-xs ink-soft">— {e.company}</p>
               {/* <ul className="space-y-1.5 mt-3">
                 {e.points.map((pt) => (
                   <li key={pt} className="text-sm ink-soft leading-relaxed flex gap-2">

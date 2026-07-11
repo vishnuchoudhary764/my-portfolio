@@ -18,7 +18,7 @@ export function Hero({ onNavigate }) {
       <div className="max-w-6xl mx-auto px-5 sm:px-8 relative">
         <div className="flex justify-evenly items-center flex-col md:flex-row md:gap-10 gap-20 ">
           <div className="text-center md:text-start">
-            <Eyebrow className="ink-soft text-center text-xs ml-10 mb-4">Final Year B.Tech CSE student</Eyebrow>
+            <Eyebrow className="ink-soft text-center text-xs  mb-4">Final Year B.Tech CSE student</Eyebrow>
             
             <Reveal delay={80}>
               <h1 className="font-display text-5xl sm:text-7xl leading-[1.02] ink-text max-w-3xl">
