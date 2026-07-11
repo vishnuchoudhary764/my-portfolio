@@ -13,7 +13,7 @@ export function Hero({ onNavigate }) {
   ];
 
   return (
-    <section id="top" className="relative pt-32 pb-20 sm:pt-40 sm:pb-28 overflow-hidden">
+    <section id="top" className="relative pt-25 pb-20 sm:pt-35 sm:pb-28 overflow-hidden">
       <div className="absolute inset-0 blueprint-grid pointer-events-none" />
       <div className="max-w-6xl mx-auto px-5 sm:px-8 relative">
         <div className="flex justify-evenly items-center flex-col md:flex-row md:gap-10 gap-20 ">

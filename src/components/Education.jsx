@@ -5,7 +5,7 @@ import { Reveal, Eyebrow, FigureLabel } from "./Ui";
 
 export function Education() {
   return (
-    <section id="education" className="py-20 sm:py-28 border-t grid-line-border">
+    <section id="education" className="py-20 grid-line-border">
       <div className="max-w-6xl mx-auto px-5 sm:px-8">
         <Reveal>
           <FigureLabel n="05" title="Education & Certifications" />

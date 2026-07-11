@@ -5,7 +5,7 @@ import { Reveal, FigureLabel } from "./Ui";
 
 export function Experience() {
   return (
-    <section id="experience" className="py-20 sm:py-28 border-t grid-line-border ">
+    <section id="experience" className="py-20 grid-line-border ">
       <div className="max-w-6xl mx-auto px-5 sm:px-8">
         <Reveal>
           <FigureLabel n="04" title="Experience" />

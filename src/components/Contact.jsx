@@ -40,7 +40,7 @@ export function Contact() {
   }
 
   return (
-    <section id="contact" className="py-24 sm:py-32 border-t grid-line-border relative overflow-hidden">
+    <section id="contact" className="py-20 grid-line-border relative overflow-hidden">
       <div className="absolute inset-0 blueprint-grid pointer-events-none opacity-60" />
       <div className="max-w-6xl mx-auto px-5 sm:px-8 relative">
         <Reveal>

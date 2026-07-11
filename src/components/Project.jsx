@@ -72,7 +72,7 @@ function ProjectCard({ project, delay }) {
 
 export function Projects() {
   return (
-    <section id="projects" className="py-20 sm:py-28 border-t grid-line-border">
+    <section id="projects" className="py-20 grid-line-border">
       <div className="max-w-6xl mx-auto px-5 sm:px-8">
         <Reveal>
           <FigureLabel n="03" title="Projects" />

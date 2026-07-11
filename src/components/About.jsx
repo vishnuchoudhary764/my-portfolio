@@ -4,7 +4,7 @@ import { Reveal, FigureLabel, CornerFrame, SocialButtons ,Stat } from "./Ui";
 
 export function About() {
   return (
-    <section id="profile" className="py-20 sm:py-28 border-t grid-line-border">
+    <section id="profile" className="py-20 grid-line-border">
       <div className="max-w-6xl mx-auto px-5 sm:px-8">
         <Reveal>
           <FigureLabel title="Profile" />
