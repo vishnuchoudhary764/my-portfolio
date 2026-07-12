@@ -13,6 +13,7 @@ import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 
 import "./index.css";
+import { MenuNav } from "./components/Ui";
 
 export default function App() {
   const active = useActiveSection(NAV_ITEMS.map((n) => n.id));
@@ -28,10 +29,10 @@ export default function App() {
 
   return (
     <div className="portfolio-root min-h-screen ink-text">
-      
+
       <Navbar active={active} onNavigate={handleNavigate} />
       {/* <SideRuler active={active} onNavigate={handleNavigate} /> */}
-
+      <MenuNav active={active} onNavigate={handleNavigate} />
       <main>
         <Hero onNavigate={handleNavigate} />
         <About />

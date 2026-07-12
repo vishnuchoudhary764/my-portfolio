@@ -1,5 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
+import { Menu, X } from "lucide-react";
 import { useReveal } from "../utils/hooks";
+import { NAV_ITEMS } from "../utils/data";
+
 import {
   FolderKanban,
   Code2,
@@ -166,6 +169,53 @@ export function Stat() {
           </p>
         </div>
       ))}
+    </div>
+  );
+}
+
+export function MenuNav({ active, onNavigate }) {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <div>
+      {/* Toggle button - fixed mid-right */}
+      <button
+        className="md:hidden w-11 h-11 flex fixed top-1/2 right-3 -translate-y-1/2 z-50 items-center justify-center rounded-full backdrop-blur-md bg-white/10 border border-white/20 ink-text shadow-lg"
+        onClick={() => setOpen((o) => !o)}
+        aria-label="Toggle menu"
+        aria-expanded={open}
+      >
+        {open ? <X size={20} /> : <Menu size={20} />}
+      </button>
+
+      {/* Fullscreen glassy overlay menu */}
+      <div
+        className={`md:hidden fixed inset-0 z-40 backdrop-blur-lg bg-black/20 transition-opacity duration-300 ease-out ${
+          open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+        }`}
+        onClick={() => setOpen(false)}
+      >
+        <div
+          className="h-full flex flex-col items-end justify-center gap-6 px-8"
+          onClick={(e) => e.stopPropagation()}
+        >
+          {NAV_ITEMS.map((item, i) => (
+            <button
+              key={item.id}
+              onClick={() => {
+                onNavigate(item.id);
+                setOpen(false);
+              }}
+              className={`mono text-lg tracking-[0.12em] mr-10 text-white transition-all duration-300 ease-out ${
+                open ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
+              }`}
+              style={{ transitionDelay: open ? `${i * 60}ms` : "0ms" }}
+            >
+              {item.label}
+            </button>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
