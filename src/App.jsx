@@ -32,7 +32,7 @@ export default function App() {
 
       <Navbar active={active} onNavigate={handleNavigate} />
       {/* <SideRuler active={active} onNavigate={handleNavigate} /> */}
-      <MenuNav active={active} onNavigate={handleNavigate} />
+      {/* <MenuNav active={active} onNavigate={handleNavigate} /> */}
       <main>
         <Hero onNavigate={handleNavigate} />
         <About />
