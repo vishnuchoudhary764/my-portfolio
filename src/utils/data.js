@@ -3,7 +3,7 @@ export const PROFILE = {
   name: "Vasana Ram",
   role: "Full-Stack (MERN + NEXTJS) developer",
   tagline:
-    "Aspiring Software Engineer and Full Stack Developer with hands-on experience building production-ready Frontend , Backend and REST APIs",
+    "Aspiring Software Engineer and Full Stack Developer with hands-on experience designing and developing scalable web applications, responsive user interfaces, backend services, and RESTful APIs.",
   location: "Kota, Rajasthan",
   experience: "1+ yrs",
   focus: "Web Platforms",

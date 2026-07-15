@@ -54,7 +54,7 @@ function ProjectCard({ project, delay }) {
           <h3 className="font-display text-2xl ink-text">{project.title}</h3>
           <span className="mono text-xs ink-soft">{project.fig}</span>
         </div>
-        <p className="text-sm ink-soft mt-2 leading-relaxed">{project.description}</p>
+        <p className="font-display text-sm ink-soft mt-2 leading-relaxed">{project.description}</p>
         <div className="flex flex-wrap gap-2 mt-4">
           {project.tags.map((t) => (
             <span

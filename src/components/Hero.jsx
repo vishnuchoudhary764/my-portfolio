@@ -31,7 +31,7 @@ export function Hero({ onNavigate }) {
               </p>
             </Reveal>
             <Reveal delay={200}>
-              <p className="mt-6 text-lg ink-soft max-w-xl leading-relaxed">{PROFILE.tagline}</p>
+              <p className=" font-display mt-6 text-lg ink-soft max-w-xl leading-relaxed">{PROFILE.tagline}</p>
             </Reveal>
 
             <Reveal delay={260}>
@@ -44,7 +44,9 @@ export function Hero({ onNavigate }) {
                 </button>
                 <button
                   onClick={() => onNavigate("contact")}
-                  className="mono text-xs uppercase tracking-[0.12em] px-6 py-3 border-2 ink-border ink-text rounded-sm hover:accent-border hover:accent-text hover:-translate-y-0.5 transition-all duration-300"
+                  className="mono text-xs uppercase tracking-[0.12em] px-6 py-3 border-2 ink-border
+                   ink-text rounded-sm hover:accent-border hover:accent-text hover:-translate-y-0.5 
+                   transition-all duration-300"
                 >
                   Get in Touch
                 </button>
