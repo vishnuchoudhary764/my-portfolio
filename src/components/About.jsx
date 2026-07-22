@@ -18,7 +18,6 @@ export function About() {
           </Reveal>
 
           <Reveal delay={100}>
-            <h2 className=" font-display text-lg">Building Modern & Responsive Web Experiences</h2>
 
             <p className="font-display ink-soft leading-relaxed w-full">
               Full Stack Developer specializing in MERN Stack, Next.js, and React Native. I build scalable, production-ready web applications with modern UI, secure backend systems, AI integrations, and cloud deployment. Passionate about solving real-world problems through clean, efficient code and continuously learning new technologies.

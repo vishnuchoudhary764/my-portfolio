@@ -16,7 +16,7 @@ export function Hero({ onNavigate }) {
     <section id="top" className="relative pt-25 pb-20 sm:pt-35 sm:pb-28 overflow-hidden">
       <div className="absolute inset-0 blueprint-grid pointer-events-none" />
       <div className="max-w-6xl mx-auto px-5 sm:px-8 relative">
-        <div className="flex justify-evenly items-center flex-col md:flex-row md:gap-10 gap-20 ">
+        <div className="flex justify-start items-center flex-col md:flex-row md:gap-10 gap-20 ">
           <div className="text-center md:text-start">
             <Eyebrow className="ink-soft text-center text-xs  mb-4">Final Year B.Tech CSE student</Eyebrow>
             
@@ -54,8 +54,8 @@ export function Hero({ onNavigate }) {
             </Reveal>
           </div>
              
-        <Reveal delay={524}>
-         
+           <Reveal delay={524}>
+{/*          
             <div className="md:w-100 w-80 h-60 md:h-80 rounded-[25px] overflow-hidden backdrop-blur-[10px] bg-white/10 border border-white/15 shadow-2xl "
             onMouseEnter={() => videoRef.current?.pause()}
             onMouseLeave={() => videoRef.current?.play()}
@@ -74,7 +74,7 @@ export function Hero({ onNavigate }) {
             >
               <source src="/intro2.mp4" type="video/mp4" />
             </video>
-          </div>
+          </div> */}
         </Reveal>
         </div>
 
